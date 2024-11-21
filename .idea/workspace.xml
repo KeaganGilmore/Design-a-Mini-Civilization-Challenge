@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f9cfd0-975d-4826-84a0-e58b0f17cd7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/notebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LockedModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LockedModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.2295355c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.2295355c.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6a980779.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6a980779.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6a980779.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ChallengeModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChallengeModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Planet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Planet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planet.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/planets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/planets.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -79,12 +87,13 @@
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\react_template\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\Design-a-Mini-Civilization-Challenge\src\assets" />
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\Design-a-Mini-Civilization-Challenge\src" />
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\Design-a-Mini-Civilization-Challenge\assets" />
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\react_template" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -154,7 +163,7 @@
       <workItem from="1731054314754" duration="14405000" />
       <workItem from="1731510456542" duration="275000" />
       <workItem from="1732205501471" duration="2520000" />
-      <workItem from="1732208856205" duration="4523000" />
+      <workItem from="1732208856205" duration="6345000" />
     </task>
     <servers />
   </component>

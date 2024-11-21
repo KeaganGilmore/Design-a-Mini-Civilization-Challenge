@@ -13,8 +13,14 @@
     font-size: 0.9rem;
     color: #fff;
     text-shadow: 1px 1px 3px #000;
+    background: rgba(0, 0, 50, 0.8); /* Mystical spacey background */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    max-width: 200px;
+    word-wrap: break-word;
 }
-
 .planet img {
     width: 120px;
     height: 120px;
