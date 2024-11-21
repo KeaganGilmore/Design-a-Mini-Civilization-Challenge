@@ -5,7 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f9cfd0-975d-4826-84a0-e58b0f17cd7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/jupiter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/mars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/mercury.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/neptune.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/saturn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/space-background.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/spaceship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/uranus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/venus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChallengeModal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ChallengeModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Planet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Planet.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spaceship.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Spaceship.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/planets.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Game.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Game.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -30,7 +57,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/lx-library/React-Game-Template.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/KeaganGilmore/Design-a-Mini-Civilization-Challenge.git&quot;,
     &quot;accountId&quot;: &quot;bf6b3300-310d-487c-8115-7a07c24d8d45&quot;
   }
 }</component>
@@ -49,7 +76,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Careers/LXLibrary/Coding_and_Design/GameDev/react_template/src/hooks&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Careers/LXLibrary/Coding_and_Design/GameDev/Design-a-Mini-Civilization-Challenge/src&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,21 +86,25 @@
     &quot;npm.build.executor&quot;: &quot;Run&quot;,
     &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
     &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Careers\\LXLibrary\\Coding_and_Design\\GameDev\\react_template\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Careers\\LXLibrary\\Coding_and_Design\\GameDev\\Design-a-Mini-Civilization-Challenge\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\Design-a-Mini-Civilization-Challenge\src" />
+      <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\Design-a-Mini-Civilization-Challenge\assets" />
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\react_template\src\hooks" />
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\react_template\src\utils" />
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\react_template\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\Design-a-Mini-Civilization-Challenge\src" />
+      <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\Design-a-Mini-Civilization-Challenge\assets" />
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\react_template" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -123,7 +154,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -142,6 +173,8 @@
       <workItem from="1731054301279" duration="2000" />
       <workItem from="1731054314754" duration="14405000" />
       <workItem from="1731510456542" duration="275000" />
+      <workItem from="1732205501471" duration="2520000" />
+      <workItem from="1732208856205" duration="729000" />
     </task>
     <servers />
   </component>
