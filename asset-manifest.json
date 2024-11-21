@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Galactic-Quest/static/css/main.c1e7bf8d.css",
-    "main.js": "/Galactic-Quest/static/js/main.834b0f3c.js",
+    "main.css": "/Galactic-Quest/static/css/main.bd48750b.css",
+    "main.js": "/Galactic-Quest/static/js/main.a773b1e0.js",
     "static/js/453.55c15a21.chunk.js": "/Galactic-Quest/static/js/453.55c15a21.chunk.js",
+    "static/media/notebook.png": "/Galactic-Quest/static/media/notebook.88c977809cb46b96d641.png",
     "static/media/earth.png": "/Galactic-Quest/static/media/earth.a2248a88f725fbcaf45a.png",
     "static/media/mercury.png": "/Galactic-Quest/static/media/mercury.5a09a3dd5be37f80fbc2.png",
     "static/media/mars.png": "/Galactic-Quest/static/media/mars.50a516a99f0f0770c257.png",
@@ -14,12 +15,12 @@
     "static/media/saturn.png": "/Galactic-Quest/static/media/saturn.0ebc324689b10fd559bb.png",
     "static/media/spaceship.png": "/Galactic-Quest/static/media/spaceship.ddb0b952e3c69cc4bcdd.png",
     "index.html": "/Galactic-Quest/index.html",
-    "main.c1e7bf8d.css.map": "/Galactic-Quest/static/css/main.c1e7bf8d.css.map",
-    "main.834b0f3c.js.map": "/Galactic-Quest/static/js/main.834b0f3c.js.map",
+    "main.bd48750b.css.map": "/Galactic-Quest/static/css/main.bd48750b.css.map",
+    "main.a773b1e0.js.map": "/Galactic-Quest/static/js/main.a773b1e0.js.map",
     "453.55c15a21.chunk.js.map": "/Galactic-Quest/static/js/453.55c15a21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1e7bf8d.css",
-    "static/js/main.834b0f3c.js"
+    "static/css/main.bd48750b.css",
+    "static/js/main.a773b1e0.js"
   ]
 }
