@@ -5,32 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f9cfd0-975d-4826-84a0-e58b0f17cd7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/jupiter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/mars.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/mercury.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/neptune.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/saturn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/space-background.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/spaceship.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/uranus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/venus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChallengeModal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ChallengeModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Planet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Planet.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spaceship.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Spaceship.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/planets.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Game.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Game.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ChallengeModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ChallengeModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Planet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Planet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/planets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/planets.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +154,7 @@
       <workItem from="1731054314754" duration="14405000" />
       <workItem from="1731510456542" duration="275000" />
       <workItem from="1732205501471" duration="2520000" />
-      <workItem from="1732208856205" duration="729000" />
+      <workItem from="1732208856205" duration="4523000" />
     </task>
     <servers />
   </component>

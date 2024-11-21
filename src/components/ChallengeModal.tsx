@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./ChallengeModal.css";
 
 interface ChallengeModalProps {
@@ -7,8 +7,8 @@ interface ChallengeModalProps {
         challenge: {
             type: string;
             question?: string;
+            answers?: string[];
             prompt?: string;
-            answer?: string;
         };
     };
     onComplete: () => void;
@@ -16,24 +16,36 @@ interface ChallengeModalProps {
 }
 
 const ChallengeModal: React.FC<ChallengeModalProps> = ({ planet, onComplete, onClose }) => {
-    const [input, setInput] = useState("");
+    const [response, setResponse] = useState<string>("");
+    const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+
+    useEffect(() => {
+        const savedResponses = JSON.parse(localStorage.getItem("savedResponses") || "{}");
+        if (savedResponses[planet.name]) {
+            setResponse(savedResponses[planet.name].response);
+        }
+    }, [planet.name]);
 
     const handleSubmit = () => {
-        if (planet.challenge.type === "language") {
-            if (input.trim().split(" ").length >= 50) {
-                alert("Great entry! You've completed this challenge.");
+        if (planet.challenge.answers) {
+            const correct = planet.challenge.answers.some(answer =>
+                answer.toLowerCase() === response.toLowerCase().trim()
+            );
+            setIsCorrect(correct);
+            saveResponse(correct);
+            if (correct) {
                 onComplete();
-            } else {
-                alert("Please write at least 50 words.");
             }
         } else {
-            if (input.trim().toLowerCase() === planet.challenge.answer?.toLowerCase()) {
-                alert("Correct! You've completed this challenge.");
-                onComplete();
-            } else {
-                alert("Incorrect. Try again!");
-            }
+            saveResponse(false);
+            onComplete();
         }
+    };
+
+    const saveResponse = (correct: boolean) => {
+        const savedResponses = JSON.parse(localStorage.getItem("savedResponses") || "{}");
+        savedResponses[planet.name] = { response, isCorrect: correct };
+        localStorage.setItem("savedResponses", JSON.stringify(savedResponses));
     };
 
     return (
@@ -43,22 +55,21 @@ const ChallengeModal: React.FC<ChallengeModalProps> = ({ planet, onComplete, onC
                 <p>{planet.challenge.question || planet.challenge.prompt}</p>
                 {planet.challenge.type === "language" ? (
                     <textarea
-                        placeholder="Your Mission Log..."
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
+                        value={response}
+                        onChange={(e) => setResponse(e.target.value)}
                     />
                 ) : (
                     <input
                         type="text"
-                        placeholder="Your Answer..."
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
+                        value={response}
+                        onChange={(e) => setResponse(e.target.value)}
                     />
                 )}
                 <div className="modal-buttons">
                     <button onClick={handleSubmit}>Submit</button>
                     <button onClick={onClose}>Close</button>
                 </div>
+                {isCorrect === false && <p>Incorrect, please try again.</p>}
             </div>
         </div>
     );

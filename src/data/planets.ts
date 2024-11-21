@@ -14,7 +14,7 @@ const planets = [
         challenge: {
             type: "science",
             question: "Mercury is closest to the sun, but it's not the hottest planet. Which planet is the hottest in our solar system?",
-            answer: "Venus",
+            answers: ["Venus"],
         },
     },
     {
@@ -23,7 +23,7 @@ const planets = [
         challenge: {
             type: "math",
             question: "If you travel from Earth to Venus at a speed of 30,000 km/h and the distance is approximately 41 million km, how many hours will the journey take? (Round to the nearest whole number)",
-            answer: "1367",
+            answers: ["1367"],
         },
     },
     {
@@ -32,7 +32,7 @@ const planets = [
         challenge: {
             type: "geography",
             question: "Name the largest ocean on Earth.",
-            answer: "Pacific Ocean",
+            answers: ["Pacific Ocean", "Pacific"],
         },
     },
     {

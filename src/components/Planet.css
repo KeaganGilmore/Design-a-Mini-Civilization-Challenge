@@ -8,11 +8,11 @@
     z-index: 1;
 }
 
-.planet {
-    margin: 20px;
-    position: relative;
-    cursor: pointer;
-    transition: transform 0.3s;
+.planet .response {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
 }
 
 .planet img {

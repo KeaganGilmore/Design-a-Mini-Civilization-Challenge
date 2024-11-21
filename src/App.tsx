@@ -20,10 +20,8 @@ const App: React.FC = () => {
     }, [currentPlanetIndex, completedPlanets]);
 
     const handlePlanetClick = (index: number) => {
-        if (!completedPlanets.includes(index)) {
-            setCurrentPlanetIndex(index);
-            setShowChallenge(true);
-        }
+        setCurrentPlanetIndex(index);
+        setShowChallenge(true);
     };
 
     const handleChallengeComplete = () => {
