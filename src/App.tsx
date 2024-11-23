@@ -51,6 +51,8 @@ const App: React.FC = () => {
 
         if (allPlanetsAnswered && cornerstoneCompleted) {
             setShowCornerstone(true);
+        } else if (allPlanetsAnswered) {
+            setShowCornerstone(true);
         } else {
             setShowLockedModal(true);
         }
