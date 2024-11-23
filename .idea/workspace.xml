@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22f9cfd0-975d-4826-84a0-e58b0f17cd7a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.c1e7bf8d.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.c1e7bf8d.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.834b0f3c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.834b0f3c.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.834b0f3c.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.bd48750b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.bd48750b.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/453.55c15a21.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/453.55c15a21.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a773b1e0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a773b1e0.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a773b1e0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/earth.a2248a88f725fbcaf45a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/jupiter.033d79aa2b1c6c4d86d8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/mars.50a516a99f0f0770c257.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/mercury.5a09a3dd5be37f80fbc2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/neptune.b91d3d494a2321a13827.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/notebook.88c977809cb46b96d641.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/saturn.0ebc324689b10fd559bb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/space-background.b24b1363e42c3859d79c.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/spaceship.ddb0b952e3c69cc4bcdd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/uranus.7a8c1d7a5baefa1575c7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/venus.11dc1982eadd7c9b0a49.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +100,7 @@
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\react_template" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.start">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -129,8 +143,8 @@
     </configuration>
     <list>
       <item itemvalue="npm.build" />
-      <item itemvalue="npm.deploy" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.deploy" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -157,6 +171,7 @@
       <workItem from="1731510456542" duration="275000" />
       <workItem from="1732205501471" duration="2520000" />
       <workItem from="1732208856205" duration="7002000" />
+      <workItem from="1732358593507" duration="283000" />
     </task>
     <servers />
   </component>

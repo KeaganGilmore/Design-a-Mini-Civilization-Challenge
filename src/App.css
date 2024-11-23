@@ -55,6 +55,11 @@ h1 {
     height: 100px;
 }
 
+.notebook-container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
 .notebook-shake {
     animation: shake 0.5s infinite;
 }

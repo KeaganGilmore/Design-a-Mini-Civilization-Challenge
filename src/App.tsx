@@ -47,6 +47,7 @@ const App: React.FC = () => {
     const handleNotebookClick = () => {
         const savedResponses = JSON.parse(localStorage.getItem("savedResponses") || "{}");
         const allPlanetsAnswered = planets.every(planet => savedResponses[planet.name]);
+        const incompletePlanets = planets.filter(planet => !savedResponses[planet.name]).map(planet => planet.name);
 
         if (allPlanetsAnswered && cornerstoneCompleted) {
             setShowCornerstone(true);
