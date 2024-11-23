@@ -45,7 +45,10 @@ const App: React.FC = () => {
     };
 
     const handleNotebookClick = () => {
-        if (completedPlanets.length === planets.length && cornerstoneCompleted) {
+        const savedResponses = JSON.parse(localStorage.getItem("savedResponses") || "{}");
+        const allPlanetsAnswered = planets.every(planet => savedResponses[planet.name]);
+
+        if (allPlanetsAnswered && cornerstoneCompleted) {
             setShowCornerstone(true);
         } else {
             setShowLockedModal(true);
