@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22f9cfd0-975d-4826-84a0-e58b0f17cd7a" name="Changes" comment="" />
+    <list default="true" id="22f9cfd0-975d-4826-84a0-e58b0f17cd7a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a6c377b0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a6c377b0.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.a6c377b0.js.map" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +85,7 @@
       <recent name="D:\Careers\LXLibrary\Coding_and_Design\GameDev\react_template" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -121,8 +128,8 @@
     </configuration>
     <list>
       <item itemvalue="npm.build" />
-      <item itemvalue="npm.start" />
       <item itemvalue="npm.deploy" />
+      <item itemvalue="npm.start" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -149,7 +156,8 @@
       <workItem from="1731510456542" duration="275000" />
       <workItem from="1732205501471" duration="2520000" />
       <workItem from="1732208856205" duration="7002000" />
-      <workItem from="1732358593507" duration="555000" />
+      <workItem from="1732358593507" duration="1191000" />
+      <workItem from="1732467215788" duration="200000" />
     </task>
     <servers />
   </component>
